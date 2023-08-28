@@ -1,5 +1,5 @@
 <?php
-require("db.php");
+require("db_config.php");
 
 
 if (isset($_POST['delete-dog'])) {

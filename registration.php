@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8"/>
     <title>Registration</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/login-style.css"/>
 </head>
 <body>
 <?php
-    require('db.php');
+    require("db_config.php");
 
     if (isset($_REQUEST['username'])) {
 
